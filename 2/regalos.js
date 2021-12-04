@@ -29,7 +29,7 @@ const letter = "bici coche balón _playstation bici coche peluche";
 
 function listGifts(letter) {
   return letter
-    .replace(/^\s+|\s+$/g, "")
+    .trim()
     .replace(/\s+/g, " ")
     .split(" ")
     .filter((word) => word[0] !== "_")
