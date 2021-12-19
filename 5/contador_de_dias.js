@@ -2,7 +2,6 @@
 Contando los días para los regalos
 
 Con la emoción, ya estamos empezando a contar los días del calendario hasta el 25 de diciembre 📆.
-
 Para ayudar a esto, vamos a crear una función que pasándole una instancia de Date nos diga el número de días que faltan.
 
 Veamos unos ejemplos:
@@ -20,7 +19,7 @@ El resultado tiene que ser un número entero y, como ves, aunque falte un segund
 
 ¡Pero ojo! También hay que indicar si la fecha es del mismo día (devolveríamos 0) o si es una fecha futura (devolveríamos el número de días en negativo -):
 
-const date = new Date('Dec 25, 2021)
+const date = new Date('Dec 25, 2021')
 daysToXmas(date) // 0
 const date1 = new Date('Dec 26, 2021')
 daysToXmas(date1) // -1

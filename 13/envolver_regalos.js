@@ -11,6 +11,7 @@ Sólo tienes que tener en cuenta unas cosillas ✌️:
 Si el array está vacío, devuelve un array vacío
 Los regalos son emojis 🎁... por lo que tenlo en cuenta a la hora de contar su longitud...
 Por suerte, cada posición del array siempre tiene la misma longitud...
+
 wrapGifts(["📷", "⚽️"])
 Resultado:
 [ '****',
@@ -19,6 +20,7 @@ Resultado:
   '****'
 ]
 
+
 wrapGifts(["🏈🎸", "🎮🧸"])
 Resultado:
 [ '******',
@@ -26,6 +28,7 @@ Resultado:
   '*🎮🧸*',
   '******'
 ]
+
 
 wrapGifts(["📷"])
 Resultado:
