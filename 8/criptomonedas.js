@@ -3,7 +3,7 @@ La locura de las criptomonedas
 
 Invertir en criptomonedas es casi un deporte de riesgo. El otro día hackearon Bitmart y ha hecho que el valor de Bitcoin, y otras monedas, bajase un 25%.
 
-Vamos a escribir una función que reciba la lista de precios de una criptomoneda en un día y 
+Vamos a escribir una función que reciba la lista de precios de una criptomoneda en un día y
 debemos devolver la ganancia máxima que podríamos sacar si compramos y vendemos la inversión el mismo día.
 
 La lista de precios es un array de números y representa el tiempo de izquierda a derecha. 
@@ -16,7 +16,6 @@ maxProfit(pricesBtc) // -> 16 (compra a 18, vende a 34)
 
 const pricesEth = [10, 20, 30, 40, 50, 60, 70]  
 maxProfit(pricesEth) // -> 60 (compra a 10, vende a 70)
-    
 
 Si ese día no se puede sacar ningún beneficio, tenemos que devolver -1 para evitar que hagamos una locura:
 

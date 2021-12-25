@@ -8,10 +8,13 @@ Encima nos hemos dado cuenta que algunas palabras vienen con un _ delante de la 
 que significa que está tachado y no se tiene que contar.
 
 Transforma el texto a un objeto que contenga el nombre de cada regalo y las veces que aparece. Por ejemplo, si tenemos el texto:
+
 const carta = 'bici coche balón _playstation bici coche peluche'
 
 Al ejecutar el método debería devolver lo siguiente:
+
 const regalos = listGifts(carta)
+
 console.log(regalos)
 {
   bici: 2,
@@ -22,8 +25,6 @@ console.log(regalos)
 
 Ten en cuenta que los tests pueden ser más exhaustivos... 😝 ¡Cuidado con contar espacios vacíos!
 */
-
-const letter = "bici coche balón _playstation bici coche peluche";
 
 function listGifts(letter) {
   return letter
@@ -37,5 +38,5 @@ function listGifts(letter) {
     }, {});
 }
 
-const gifts = listGifts(letter);
-console.log(gifts);
+const carta = "bici coche balón _playstation bici coche peluche";
+console.log(listGifts(carta));

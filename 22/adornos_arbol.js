@@ -22,13 +22,15 @@ const tree = {
     right: null // no tiene más ramas
   }
 }
+
 Gráficamente sería así:
     1
-  /    2     3
+  /   \
+ 2     3
 
-1 + 2 + 3 = 5
+1 + 2 + 3 = 6
 
-countDecorations(tree) // 5
+countDecorations(tree) // 6
 
 const bigTree = {
   value: 1,
@@ -59,9 +61,12 @@ const bigTree = {
     }
   }
 }
+
         1
-      /        5     6
-    /     /    7     5   1
+      /   \
+     5     6
+    /     / \
+   7     5   1
   /
  3
 

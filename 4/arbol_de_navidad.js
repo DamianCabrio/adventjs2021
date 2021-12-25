@@ -2,9 +2,11 @@
 ¡Es hora de poner la navidad en casa!
 
 ¡Es hora de poner el árbol de navidad en casa! 🎄
+
 Para ello vamos a crear una función que recibe la altura del árbol, que será un entero positivo del 1 a, como máximo, 100.
 
 Si le pasamos el argumento 5, se pintaría esto:
+
 ____*____
 ___***___
 __*****__
@@ -19,6 +21,7 @@ Es muy importante que nuestro árbol siempre tenga la misma longitud por cada la
 Todos los árboles, por pequeños o grandes que sean, tienen un tronco de dos líneas de #.
 
 Otro ejemplo con un árbol de altura 3:
+
 __*__
 _***_
 *****
@@ -53,4 +56,3 @@ function createXmasTree(height) {
 
 console.log(createXmasTree(5));
 console.log(createXmasTree(3));
-console.log(createXmasTree(1));

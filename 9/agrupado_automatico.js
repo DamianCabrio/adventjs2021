@@ -24,8 +24,8 @@ groupBy([
   { title: 'Clean Code', rating: 9 },
 ], 'rating')
 { 8: [{ title: 'JavaScript: The Good Parts', rating: 8 }],
-9: [{ title: 'Clean Code', rating: 9 }],
-10: [{ title: 'Aprendiendo Git', rating: 10 }] }
+  9: [{ title: 'Clean Code', rating: 9 }],
+  10: [{ title: 'Aprendiendo Git', rating: 10 }] }
 
 Como ves, la función groupBy recibe una colección (array) y una función o una propiedad, 
 y devuelve un objeto con claves que son los valores de la función ejecutada pasando como argumento cada elemento o de la propiedad por cada elemento. 

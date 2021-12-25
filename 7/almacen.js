@@ -23,7 +23,7 @@ const almacen = {
     }
   }
 }
-            
+
 contains(almacen, 'camiseta') // true
 
 const otroAlmacen = {

@@ -16,7 +16,7 @@ Símbolo       Valor
 
 Lara, además, ha notado una cosa. Los símbolos se restan si están inmediatamente a la izquierda de otro mayor. 😱
 
-Tenemos que crear una función que nos pasa una cadena de texto con símbolos y tenemos que transformarlo al número correcto. 
+Tenemos que crear una función que nos pasa una cadena de texto con símbolos y tenemos que transformarlo al número correcto.
 ¡Ojo! Si encuentras un símbolo que no entendemos, mejor que devolvamos un NaN:
 
 decodeNumbers('...') // 3
